@@ -1,0 +1,138 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+p{
+	text-align: center;
+}
+body {
+	margin: 0;
+ 	background: #b5764f;
+	color: #000;
+ 	font-family: sans-serif;
+	}
+#container {
+	max-width: 800px;
+	border: 1px solid #CC9D3F;
+	margin: auto;
+	margin-top: 3rem;
+	}
+header {
+	margin: 0;
+	text-align: center;
+	padding: 2rem 0;
+	background: #b5764f;
+	}
+h1 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 2.5rem;
+    line-height: 1;
+	}
+footer {
+	padding: 1.5rem 0;
+	background: #CC9D3F; /* Gold */
+	}
+form {
+	width: 90%;
+	margin: auto;
+	}
+
+
+a {
+	color: #c00;
+	text-decoration: underline;
+	}
+a:hover {
+	color: #f00;
+	text-decoration: none;
+	}
+div{
+	padding: 10px;
+}
+#coms{
+	padding: 0px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#views {
+	padding: 1rem 2rem;
+	border: 1px solid #CC9D3F;
+	background: #B24D00;
+	}
+ul {
+	height: 300px;
+	overflow: auto;
+	padding: 2rem;
+	border: 1px solid #333;
+	}
+ul li {
+	color: #000;
+	list-style: none;
+	font-size: 1rem;
+	line-height: 1.5;
+	}
+label {
+	font-size: 1.1rem;
+	padding-right;
+	}
+input[type='text'] {
+	font-family: serif;
+	font-size: 1.2rem;
+	margin-right: 40px;
+	width: 100px;
+	height: 1.6rem;
+	}
+input#name {
+	width: 300px;
+	}
+	input#title {
+		width: 300px;
+		}
+		select#watching {
+			width: 200px;
+		}
+		select#genre {
+			width: 200px;
+		}
+		select#platform {
+			width: 200px;
+		}
+		select#who {
+			width: 200px;
+		}
+		select#experience {
+			width: 200px;
+		}
+
+/* Submit button */
+#submit{
+	margin: 10px;
+	font-size: 16px;
+	padding-left: 15px 25px;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+}
+#submit:hover{
+	background-color: #CC7100;
+}
+
+/* media query for mobile */
+
+@media screen and ( max-width: 800px ) {
+	#container {
+		border: none;
+		margin: 0;
+		}
+	#shouts { padding: 0; }
+	ul { border: 0; }
+	label { display: block; }
+	#name, #submit { width: 100%; }
+	input#shout { width: 100%; }
+	input[type='text'] { margin-bottom: 0.8rem; }
+}
